@@ -271,7 +271,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("⚡️ 𝑪𝒉𝒆𝒄𝒌 𝑩𝒐𝒕 𝑷𝒎 ⚡️", url="t.me/Ramanan_re_entry_bot")
+        InlineKeyboardButton("⚡️ 𝑪𝒉𝒆𝒄𝒌 𝑩𝒐𝒕 𝑷𝒎 ⚡️", url="t.me/Aigamwol_bot")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -572,7 +572,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                               InlineKeyboardButton('🎥 𝐆𝐫𝐨𝐮𝐩 🎥', url=GRP_LNK),
                               InlineKeyboardButton('🎥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥', url=CHNL_LNK)
                            ],[
-                              InlineKeyboardButton("📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀", url="t.me/+5soUqgs9iY44YWE1")
+                              InlineKeyboardButton("📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀", url="t.me/+JeWFhkIdXkdiNzc1")
                              ]
                             ]
                         )
@@ -620,7 +620,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   InlineKeyboardButton('🎥 𝐆𝐫𝐨𝐮𝐩 🎥', url=GRP_LNK),
                   InlineKeyboardButton('🎥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎥', url=CHNL_LNK)
                ],[
-                  InlineKeyboardButton("📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀", url="t.me/+5soUqgs9iY44YWE1")
+                  InlineKeyboardButton("📀 𝐍𝐞𝐰 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 📀", url="t.me/+JeWFhkIdXkdiNzc1")
                  ]
                 ]
             )
@@ -1439,7 +1439,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡️ 𝑪𝒉𝒆𝒄𝒌 𝑩𝒐𝒕 𝑷𝒎 ⚡️", url="t.me/Ramanan_re_entry_bot")
+        InlineKeyboardButton("⚡️ 𝑪𝒉𝒆𝒄𝒌 𝑩𝒐𝒕 𝑷𝒎 ⚡️", url="t.me/Aigamwol_bot")
     ])
 
     if offset != "":
